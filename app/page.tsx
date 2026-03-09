@@ -5,11 +5,11 @@ import WorkspaceDetailsSection from "./(home)/components/WorkspaceDetails/Worksp
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <AboutSection />
       <LatestListingsSection />
       <WorkspaceDetailsSection />
-    </>
+    </main>
   );
 }
