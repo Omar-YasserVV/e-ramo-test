@@ -17,6 +17,7 @@ export default function WorkspaceDetailsSection() {
         {/* Navigation Tabs - Centered and absolute positioned to overlap the top */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 bg-[#365327] p-3 rounded-full inline-flex shadow-lg whitespace-nowrap overflow-x-auto max-w-[95%]">
           {tabs.map((tab, index) => (
+            // 
             <button
               key={tab}
               onClick={() => setActiveTab(index)}
